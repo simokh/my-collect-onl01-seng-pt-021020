@@ -1,4 +1,4 @@
-def my_collect(language)
+def my_collect(array)
   collection= []
   i = 0
   while i < language.length
@@ -7,4 +7,4 @@ def my_collect(language)
   end
   collection
 end
-my_collect(list) {|i| i.split(" ").first}
+my_collect(array) {|i| i.split(" ").first}
