@@ -5,6 +5,6 @@ def my_collect(array)
     collection << (language[i])
     i += 1
   end
-  my_collect(array) {|i| i.split(" ").first}
+  # my_collect(array) {|i| i.split(" ").first}
 end
 # my_collect(array) {|i| i.split(" ").first}
