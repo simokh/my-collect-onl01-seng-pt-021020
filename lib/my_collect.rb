@@ -5,5 +5,5 @@ def my_collect(language)
     collection << (language[i])
     i += 1
   end
-  collection.upcase
+  collection
 end
