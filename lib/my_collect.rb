@@ -1,5 +1,5 @@
 def my_collect(language)
-  collection.upcase = []
+  collection= []
   i = 0
   while i < language.length
     collection << (language[i])
