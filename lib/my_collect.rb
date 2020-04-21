@@ -1,9 +1,11 @@
 def my_collect(language)
-  collection= []
-  i = 0
-  while i < language.length
-    collection << yield(language[i])
-    i += 1
-  end
-  collection
-end
+  new_arr = []
+  n = 0 
+  while  n < language.size
+    new_arr << yield(language[n])
+    n += 1 
+  end 
+  new_arr
+end 
+
+
